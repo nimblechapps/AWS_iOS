@@ -41,5 +41,37 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>AWS</key>
+	<dict>
+		<key>CredentialsProvider</key>
+		<dict>
+			<key>CognitoIdentity</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>PoolId</key>
+					<string>POOL ID FROM awsconfiguration.json</string>
+					<key>Region</key>
+					<string>REGION</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>S3TransferManager</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>REGION</string>
+			</dict>
+		</dict>
+		<key>S3</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>REGION</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
